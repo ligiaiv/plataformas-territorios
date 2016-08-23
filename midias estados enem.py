@@ -8,7 +8,7 @@ client = MongoClient('localhost', 27017)
 
 db = client['twixplorer'] 
 tweets = db['tweets']
-dias = 3
+dias = 5
 
 now = int(time.time())*1000
 before = now - dias*24*60*60*1000
